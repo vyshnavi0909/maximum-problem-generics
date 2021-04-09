@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JunitTestCase" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-09T15:46:12" hostname="babbur-mi-notebook" time="0.046">
+<testsuite name="JunitTestCase" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-09T16:09:47" hostname="babbur-mi-notebook" time="0.055">
   <properties/>
-  <testcase name="floats_TestCase1()" classname="JunitTestCase" time="0.037"/>
-  <testcase name="floats_TestCase2()" classname="JunitTestCase" time="0.0"/>
-  <testcase name="floats_TestCase3()" classname="JunitTestCase" time="0.0"/>
+  <testcase name="floats_TestCase1()" classname="JunitTestCase" time="0.042"/>
+  <testcase name="floats_TestCase2()" classname="JunitTestCase" time="0.001"/>
+  <testcase name="floats_TestCase3()" classname="JunitTestCase" time="0.001"/>
   <testcase name="ints_TestCase1()" classname="JunitTestCase" time="0.001"/>
   <testcase name="ints_TestCase2()" classname="JunitTestCase" time="0.001"/>
   <testcase name="ints_TestCase3()" classname="JunitTestCase" time="0.001"/>
-  <testcase name="strings_TestCase1()" classname="JunitTestCase" time="0.001"/>
+  <testcase name="strings_TestCase1()" classname="JunitTestCase" time="0.0"/>
   <testcase name="strings_TestCase2()" classname="JunitTestCase" time="0.001"/>
-  <testcase name="strings_TestCase3()" classname="JunitTestCase" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="strings_TestCase3()" classname="JunitTestCase" time="0.001"/>
+  <system-out><![CDATA[Maximum of 20.2, 2.3, 10.22 : 20.2
+Maximum of 2.3, 20.2, 10.22 : 20.2
+Maximum of 2.3, 10.22, 20.2 : 20.2
+Maximum of 10, 2, 4 : 10
+Maximum of 4, 10, 3 : 10
+Maximum of 4, 3, 10 : 10
+Maximum of Peach, Banana, Apple : Peach
+Maximum of Banana, Peach, Apple : Peach
+Maximum of Banana, Apple, Peach : Peach
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

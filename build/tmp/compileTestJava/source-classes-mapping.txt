@@ -1,4 +1,4 @@
-JunitTestCase.java
- JunitTestCase
 com/generics/GenericTypeTest.java
  com.generics.GenericTypeTest
+JunitTestCase.java
+ JunitTestCase
