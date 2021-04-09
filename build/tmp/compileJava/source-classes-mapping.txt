@@ -1,2 +1,4 @@
+com/generics/GenericType.java
+ com.generics.GenericType
 com/generics/MaximumNumber.java
  com.generics.MaximumNumber
