@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JunitTestCase" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-09T14:20:07" hostname="babbur-mi-notebook" time="0.035">
+<testsuite name="JunitTestCase" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-09T14:35:47" hostname="babbur-mi-notebook" time="0.017">
   <properties/>
-  <testcase name="floatArray_TestCase1()" classname="JunitTestCase" time="0.016"/>
-  <testcase name="floatArray_TestCase2()" classname="JunitTestCase" time="0.011"/>
-  <testcase name="floatArray_TestCase3()" classname="JunitTestCase" time="0.001"/>
-  <testcase name="intArray_TestCase1()" classname="JunitTestCase" time="0.001"/>
-  <testcase name="intArray_TestCase2()" classname="JunitTestCase" time="0.001"/>
-  <testcase name="intArray_TestCase3()" classname="JunitTestCase" time="0.001"/>
+  <testcase name="strings_TestCase3()" classname="JunitTestCase" time="0.017"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
