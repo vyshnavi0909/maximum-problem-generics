@@ -1,27 +1,7 @@
 package com.generics;
 
 public class MaximumNumber {
-    public Integer maxOfIntegers(Integer a, Integer b, Integer c) {
-        if (a.compareTo(b) == 1) {
-            if (a.compareTo(c) == 1){
-                return a;
-            }
-        }if (b.compareTo(c) == 1){
-            return b;
-        }
-        return c;
-    }
-    public Float maxOfFloats (Float a, Float b, Float c){
-        if (a.compareTo(b) == 1) {
-            if (a.compareTo(c) == 1){
-                return a;
-            }
-        }if (b.compareTo(c) == 1){
-            return b;
-        }
-        return c;
-    }
-    public String maxOfStrings(String a, String b, String c){
+    public <E extends Comparable>E max(E a, E b, E c){
         if (a.compareTo(b) > 0) {
             if (a.compareTo(c) > 0){
                 return a;
@@ -31,4 +11,5 @@ public class MaximumNumber {
         }
         return c;
     }
+
 }

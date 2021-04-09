@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JunitTestCase" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-09T14:35:47" hostname="babbur-mi-notebook" time="0.017">
+<testsuite name="JunitTestCase" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-09T14:47:38" hostname="babbur-mi-notebook" time="0.039">
   <properties/>
-  <testcase name="strings_TestCase3()" classname="JunitTestCase" time="0.017"/>
+  <testcase name="floats_TestCase1()" classname="JunitTestCase" time="0.027"/>
+  <testcase name="floats_TestCase2()" classname="JunitTestCase" time="0.001"/>
+  <testcase name="floats_TestCase3()" classname="JunitTestCase" time="0.001"/>
+  <testcase name="ints_TestCase1()" classname="JunitTestCase" time="0.001"/>
+  <testcase name="ints_TestCase2()" classname="JunitTestCase" time="0.0"/>
+  <testcase name="ints_TestCase3()" classname="JunitTestCase" time="0.001"/>
+  <testcase name="strings_TestCase1()" classname="JunitTestCase" time="0.001"/>
+  <testcase name="strings_TestCase2()" classname="JunitTestCase" time="0.001"/>
+  <testcase name="strings_TestCase3()" classname="JunitTestCase" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
