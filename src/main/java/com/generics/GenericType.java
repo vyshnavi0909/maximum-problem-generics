@@ -1,26 +1,28 @@
 package com.generics;
 
-public class GenericType <E extends Comparable> {
-    E a, b, c;
+import java.util.Arrays;
+import java.util.Collections;
 
-    public GenericType(E a, E b, E c) {
-        this.a = a;
-        this.b = b;
-        this.c = c;
+public class GenericType <E> {
+
+    public static  <E> E max(E[] arr) {
+        Arrays.sort(arr, Collections.reverseOrder());
+        E max = arr[0];
+        System.out.println(max);
+        return max;
     }
-
-    public static <E extends Comparable> E max(E a, E b, E c) {
-        if(a.compareTo(b) > 0) {
-            if(a.compareTo(c) > 0) {
-                System.out.println("Maximum of " + a + ", " + b + ", " + c + " : " + a);
-                return a;
+    public static String maxOfString(String[] arr) {
+        int maxLen = 0;
+        String maxStr = arr[0];
+        for (int i = 0; i< arr.length; i++){
+            String str = arr[i];
+            int len = str.length();
+            if(len > maxLen){
+                maxLen = len;
+                maxStr = arr[i];
             }
         }
-        if(b.compareTo(c) > 0) {
-            System.out.println("Maximum of " + a + ", " + b + ", " + c + " : " + b);
-            return b;
-        }
-        System.out.println("Maximum of " + a + ", " + b + ", " + c + " : " + c);
-        return c;
+        System.out.println(maxStr);
+        return maxStr;
     }
 }

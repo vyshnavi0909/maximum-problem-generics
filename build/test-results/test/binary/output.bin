@@ -1,10 +1,10 @@
-#Maximum of 20.2, 2.3, 10.22 : 20.2
-#Maximum of 2.3, 20.2, 10.22 : 20.2
-#Maximum of 2.3, 10.22, 20.2 : 20.2
-Maximum of 10, 2, 4 : 10
-Maximum of 4, 10, 3 : 10
-Maximum of 4, 3, 10 : 10
-(Maximum of Peach, Banana, Apple : Peach
-	(Maximum of Banana, Peach, Apple : Peach
+10.2
+20.2
+20.2
+10
+10
+10
+Banana
+	Banana
 
-(Maximum of Banana, Apple, Peach : Peach
+Banana

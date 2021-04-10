@@ -7,47 +7,56 @@ public class JunitTestCase {
 
     @Test
     void ints_TestCase1(){
-        int max = GenericType.max(10, 2, 4);
+        Integer[] intArr = {10, 2, 4};
+        int max = GenericType.max(intArr);
         Assertions.assertEquals( 10, max );
     }
     @Test
     void ints_TestCase2(){
-        int max = GenericType.max(4, 10, 3);
+        Integer[] intArr = { 2, 10, 4};
+        int max = GenericType.max(intArr);
         Assertions.assertEquals( 10, max);
     }
     @Test
     void ints_TestCase3(){
-        int max = GenericType.max(4, 3, 10);
+        Integer[] intArr = {2, 4, 10};
+        int max = GenericType.max(intArr);
         Assertions.assertEquals( 10, max );
     }
     @Test
     void floats_TestCase1(){
-        float max = GenericType.max(20.2f, 2.3f, 10.22f);
-        Assertions.assertEquals( 20.2f, max);
+        Float[] floatArr = {10.2f, 2.2f, 4.4f};
+        float max = GenericType.max(floatArr);
+        Assertions.assertEquals( 10.2f, max);
     }
     @Test
     void floats_TestCase2(){
-        float max = GenericType.max(2.3f, 20.2f, 10.22f);
+        Float[] floatArr = {2.3f, 20.2f, 10.22f};
+        float max = GenericType.max(floatArr);
         Assertions.assertEquals( 20.2f, max );
     }
     @Test
     void floats_TestCase3(){
-        float max = GenericType.max(2.3f, 10.22f, 20.2f);
+        Float[] floatArr = {2.3f, 10.22f, 20.2f};
+        float max = GenericType.max(floatArr);
         Assertions.assertEquals( 20.2f, max );
     }
     @Test
     void strings_TestCase1(){
-        String max = GenericType.max( "Peach", "Banana", "Apple");
-        Assertions.assertEquals( "Peach", max );
+        String[] strArr = {"Banana", "Peach", "Apple"};
+        String max = GenericType.maxOfString(strArr );
+        Assertions.assertEquals( "Banana", max );
     }
     @Test
     void strings_TestCase2(){
-        String max = GenericType.max( "Banana", "Peach", "Apple");
-        Assertions.assertEquals( "Peach", max );
+        String[] strArr = {"Peach", "Banana", "Apple"};
+        String max = GenericType.maxOfString(strArr);
+        Assertions.assertEquals( "Banana", max );
     }
     @Test
     void strings_TestCase3(){
-        String max = GenericType.max( "Banana", "Apple", "Peach");
-        Assertions.assertEquals( "Peach", max );
+        String[] strArr = { "Apple", "Peach", "Banana"};
+        String max = GenericType.maxOfString( strArr);
+        Assertions.assertEquals( "Banana", max );
     }
 }
